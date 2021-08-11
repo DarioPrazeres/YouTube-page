@@ -258,6 +258,8 @@ img{
     .menu_info{
         margin-left: 2%;
     }
+    .menu_info{
+        margin-left: 0%;
         
        
     }
@@ -274,5 +276,8 @@ img{
     }
     .foto{
         width: 50px;
+    }
+    .search{
+        margin-right: 2%;
     }
 }
