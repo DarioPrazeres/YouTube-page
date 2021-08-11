@@ -239,6 +239,8 @@ img{
 @media only screen and (max-width: 780px){
     section{
         display: block;
+        width: 100%;
+        
     }
     .video{
         width: 100%;
@@ -255,5 +257,22 @@ img{
     }
     .menu_info{
         margin-left: 2%;
+    }
+        
+       
+    }
+    .like,
+    .unlike,
+    .share,
+    .guard,
+    .denuncia{
+        width: 80px;
+        margin-left: 1%;
+    }
+    .channel{
+        margin-left: 2%;
+    }
+    .foto{
+        width: 50px;
     }
 }
