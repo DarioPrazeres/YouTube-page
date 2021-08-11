@@ -273,6 +273,9 @@ img{
         
        
     }
+    .info{
+        display: inline-block;
+    }
     .like,
     .unlike,
     .share,
