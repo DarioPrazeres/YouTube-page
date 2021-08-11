@@ -1,0 +1,259 @@
+body{
+    background-color: rgba(0, 0, 0, 0.945);
+    color: white;
+    font-family:  sans-serif;
+}
+header{
+    margin: 0px;
+    width: 100%;
+    height: 55px;
+    position: unset;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.945);
+    
+    
+}
+.main{
+    width: 100%;
+    height: 700px;
+    justify-content: space-around;
+}
+.menu{
+    width: 35px;
+    height: 35px;
+    background-image: url(../YouTube-page/icon/ic_menu_white_24dp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2%;
+    margin-left: 1%;
+}
+.logo{
+    width:95px;
+    height: 35px;
+    background-image: url(../YouTube-page/icon/YouTube.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10%;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    margin-right: 8%;
+}
+.search > input{
+    background-color: rgba(0, 0, 0, 0.945);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.finder{
+    background-image: url(../YouTube-page/icon/ic_search_white_24dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width:50px;
+    height: 30px;
+    border-radius: 5px;
+   
+}
+.voice{
+    background-image: url(../YouTube-page/icon/ic_settings_voice_white_24dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.appsyoutube{
+    width:35px;
+    height: 35px;
+    background-image: url(../YouTube-page/icon/ic_apps_white.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-right: 2%;   
+}
+.setting{
+    width:30px;
+    height: 35px;
+    background-image: url(../YouTube-page/icon/ic_more_vert_white_3x.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-right: 2%;    
+}
+.li{
+    color: rgba(0, 0, 248, 0.767);
+    
+    background-color: rgba(0, 0, 0, 0.945);;
+    width: 150px;
+    height: 40px;
+    
+}
+
+section{
+    margin-top: 5px;
+     
+    display: flex;
+}
+.video{
+    width: 65%;
+    height: 700px;
+    
+    display: block;
+    align-items: center;
+}
+.lateral{
+    width: 35%;
+    height: 700px;
+    margin-top: 2%;
+}
+
+.play{
+    margin: 3%;
+    height: 400px;
+
+  
+}
+.info {
+    display: flex;
+    width: 100%;
+    
+}
+.menu_info{
+    margin-left: 20%;
+    display: flex;
+   
+}
+.like{
+    display: flex;
+    
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    
+}
+.unlike{
+    display: flex;
+    
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    
+}
+.share{
+    display: flex;
+    
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    
+}
+.guard{
+    display: flex;
+    
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    
+}
+.denuncia{
+    display: flex;
+    
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    
+}
+img{
+    width: 25px;
+    height: 25px;
+}
+.sub{
+    background-color: red;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+.discription{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.channel{
+    width: auto;
+    height: 60px;
+    
+    
+}
+.sub{
+    margin-left: 60%;
+    border-radius: 5%;
+}
+.foto{
+    margin-top: 2%;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(247, 105, 11);
+    border-radius: 50%;
+}
+.desc{
+    margin-left: 5%;
+    
+}
+.comentary{
+    margin-left: 5%;
+}
+.more ,
+.mais,
+.less,
+.menos{
+    background: none;
+    border: none;
+    color: tan;
+}
+
+.mostrar,
+.cometarios{
+    display: none;
+    
+}
+.video1{
+    
+    width: 100%;
+    height: 150px;
+    
+    display: flex;
+}
+.tab_new{
+    width: 50%;
+    height: 150px;
+    margin-right;: 1%
+    background-image: url(../YouTube-page/icon/hqdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media only screen and (max-width: 600px){
+    section{
+        display: block;
+    }
+    .video{
+        width: 100%;
+    }
+    .lateral{
+        margin-top: 30%;
+        width: 100%;
+    }
+    #in{
+        display: none;
+    }
+    .sub{
+        margin-left: 40%;
+    }
+    .menu_info{
+        margin-left: 2%;
+    }
+}
