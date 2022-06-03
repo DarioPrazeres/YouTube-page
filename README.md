@@ -1,6 +1,6 @@
 # YouTube-page
 
-<h1 align="center">Forms</h1>
+<h1 align="center">YouTube clone</h1>
 
 
 <img src='https://img.shields.io/github/issues/DarioPrazeres/YouTube-page'> <img src='https://img.shields.io/github/forks/DarioPrazeres/YouTube-page'> <img src='https://img.shields.io/github/stars/DarioPrazeres/YouTube-page'> <img src='https://img.shields.io/github/license/DarioPrazeres/YouTube-page'> 
